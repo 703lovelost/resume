@@ -1,0 +1,407 @@
+meta:
+  direction: ltr            # text direction, "ltr" (like English) or "rtl" (like Arabic), default is "ltr"
+  language: ru              # text language, the value is HTML lang attribute value, default is "en"
+
+basic:
+  name: Алексей Спиркин                      # name
+  title: ML-/DL-инженер           # job title
+  avatar:
+    show: true                       # show or hide avatar
+    path: /assets/images/profile.jpg # file path or link to your avatar
+
+contact:
+  location: Novosibirsk, Russia  # location, text or markdown link syntax
+  email: spirkin.aleksey.web@gmail.com     # email address
+  phone:  # phone number, the format is "+[Country Code] [Area Code (if applicable)] [Local Phone Number]"
+  website: 703lovelost.github.io      # site link without schema, like example.com, will automatically prepend "https://"
+
+  gender:                   # gender or pronoun
+  birthday: 06.11.2001                 # birthday
+  nationality:              # nationality
+  visa:                     # passport visa
+  drivinglicense: отсутствует          # driving licence
+
+  # ! Do not paste the link directly.
+  # Please copy the <> part of the comment in the link to your profile on the relevant site and paste it here.
+
+  # programming
+  github: 703lovelost                   # https://github.com/<username>
+  gitlab:                   # https://gitlab.com/<username>
+  bitbucket:                # https://bitbucket.com/<username>
+  git:                      # selfhost git site link without schema "https://"
+  leetcode:                 # https://leetcode.com/<username>
+  codeforces:               # https://codeforces.com/profile/<username>
+  codewars:                 # https://www.codewars.com/users/<username>
+  topcoder:                 # https://profiles.topcoder.com/<username>
+  huggingface: spirkin              # https://huggingface.co/<username>
+  codepen:                  # https://codepen.io/<username>
+  tryhackme:                # https://tryhackme.com/p/<username>
+
+  # research
+  googlescholar:            # https://scholar.google.com/citations?user=<username>
+  researchgate:             # https://www.researchgate.net/profile/<username>
+  orcid:                    # https://orcid.org/<id>
+  figshare:                 # https://figshare.com/authors/<name/id>
+  kaggle:                   # https://www.kaggle.com/<username>
+
+  # writing
+  medium:                   # https://medium.com/@<username>
+  wordpress:                # https://<username>.wordpress.com
+  blogger:                  # https://<username>.blogspot.com
+  devto:                    # https://dev.to/<username>
+
+  # creativity
+  figma:                    # https://www.figma.com/@<username>
+  behance:                  # https://www.behance.net/<username>
+  dribbble:                 # https://dribbble.com/<username>
+  artstation:               # https://www.artstation.com/<username>
+  pixiv:                    # https://www.pixiv.net/users/<id>
+  pinterest:                # https://www.pinterest.com/<username>
+  producthunt:              # https://www.producthunt.com/@<username>
+
+  # cv
+  linkedin:                 # https://linkedin.com/in/<username>
+  indeed:                   # https://my.indeed.com/p/<id>
+  xing:                     # https://www.xing.com/profile/<username>
+  fiverr:                   # https://www.fiverr.com/<username>
+  freelancer:               # https://www.freelancer.com/u/<username>
+
+  # chat
+  wechat:                   # wechat id, text or markdown link syntax
+  whatsapp:                 # https://wa.me/<number>
+  telegram: xtruthful                 # https://t.me/<username>
+  messenger:                # https://m.me/<username>
+  line:                     # https://line.me/R/ti/p/@<lineid>
+  viber:                    # https://vb.me/<username>
+  threema:                  # https://threema.id/<userid>
+  signal:                   # signal username, text or markdown link syntax
+  wire:                     # wire username, text or markdown link syntax
+
+  # social
+  stackoverflow:            # https://stackoverflow.com/users/<id>
+  stackexchange:            # https://stackexchange.com/users/<id>
+  quora:                    # https://www.quora.com/profile/<username>
+  zhihu:                    # https://www.zhihu.com/people/<username>
+  goodreads:                # https://www.goodreads.com/user/show/<username>
+  strava:                   # https://www.strava.com/athletes/<id>
+  wikipedia:                # https://www.wikipedia.org/wiki/User:<username>
+  twitter:                  # https://twitter.com/<username>
+  x:                        # https://x.com/<username>
+  mastodon:                 # text, the format must be like "username@yourserver.com"
+  threads:                  # https://www.threads.net/@<username>
+  vk: lovelost703                       # https://vk.com/<username>
+  weibo:                    # weibo username, text or markdown link syntax
+  instagram:                # https://instagram.com/<username>
+  unsplash:                 # https://unsplash.com/@<username>
+  _500px:                   # https://500px.com/p/<username>
+  youtube:                  # https://www.youtube.com/@<username>
+  tiktok:                   # https://www.tiktok.com/@<username>
+  snapchat:                 # https://www.snapchat.com/add/<username>
+  twitch:                   # https://www.twitch.tv/<username>
+
+profile:
+  show: true
+  order: 1
+  title: Профиль
+  description: |
+    В документе представлен мой актуальный опыт в области IT. Еще в 2022 году, начав как технический писатель, я решил пройти переквалификацию в инженера в области машинного обучения. Здесь перечислены как мои основные проектные достижения в данной сфере, так и мой смежный прогресс.
+    
+experience:
+  show: true
+  order: 2
+  title: Опыт работы
+  description: |
+    В разделе ниже перечислен мой коммерческий опыт в проектной деятельности на различных должностях в сфере IT.
+
+  items:
+    - company: Omega
+      link:
+      tags: Full-time
+      date: сентябрь 2024 - ноябрь 2024
+      role: Технический писатель
+      location: Новосибирск
+      description: |
+        Разработка технической документации на различных этапах жизненного цикла ПО в рамках крупного государственного проекта. Более 10 документов объемом до 300 страниц в отдельности.
+
+    - company: POWWWER
+      link:
+      tags: Full-time
+      date: ноябрь 2022 - сентябрь 2024
+      role: Технический писатель / бизнес-аналитик
+      location: Новосибирск
+      description: |
+        Выполнение подрядных аналитических задач. Разработка технической документации на различных этапах жизненного цикла ПО.
+        Список рабочих обязанностей:
+        + Сбор бизнес-требований заказчика.
+        + Разработка коммерческих предложений.
+        + Оценка сроков ведения проекта.
+        + Создание и сопровождение баз знаний заказчика, т.к. Confluence, mkdocs/material и других.
+        + Разработка и аудит документации по ГОСТ 19 и 34, ЕСПД.
+        + Разработка и аудит документации в формате docs-as-code.
+        + Внедрение редакционной политики в структуру заказчика.
+        + Проведение usability-тестирования в ходе подготовки пользовательской документации, подготовка тест-кейсов.
+
+project:
+  show: true
+  order: 3
+  title: Проекты
+  description: |
+    Ниже перечислены проекты различного масштаба, которыми я однозначно горжусь и с помощью которых повышаю свои компетенции.
+
+  items:
+    - name: Сегментация фона на видеопотоке
+      link: 'https://github.com/703lovelost/t1-hackathon-nsk-2025'
+      tags: Hackathon
+      date: Октябрь 2025
+      description: |
+        Сегментация фона на видеопотоке с инференсом 'MediaPipe SelfieSegmentation' через клиентское приложение на TensorFlow.js.
+        Результат работы в рамках хакатона "Т1.Импульс" в Новосибирске.
+
+    - name: Инструмент для подготовки матрицы признаков через TF-IDF / BM25.
+      link: 'https://github.com/703lovelost/vectorizers'
+      tags: PET
+      date: Сентябрь 2025
+      description: |
+        Небольшой эксперимент по сравнению сопоставления двух векторизаторов в одном пространстве.
+
+    - name: Классификация персонажей мультсериала "Гриффины".
+      link: 'https://github.com/703lovelost/FamilyGuyClassification'
+      tags: PET
+      date: Август 2025
+      description: |
+        Классификация персонажей на самостоятельно собранном, сбалансированном датасете (не могу приложить ссылку, так как не имею возможность верифицировать свою УЗ).
+
+    - name: Disaster Tweets
+      link: 'https://github.com/BodgeDook/Disaster-Tweets'
+      tags: Kaggle
+      date: Май 2025
+      description: |
+        Проект, выполняемый в рамках соревнования Kaggle 'Natural Language Processing with Disaster Tweets'.
+        + Токенизация через BertTokenizer.
+        + Обучение через 'bhadresh-savani/distilbert-base-uncased-emotion'.
+    
+skill:
+  show: true
+  order: 4
+  title: Навыки
+  description: |
+    Разнообразие моих навыков как специалиста.
+
+  items:
+    - name: Python
+      level: 5
+    - name: Jupyter Notebook
+      level: 5
+    - name: Markdown
+      level: 5
+    - name: PyTorch
+      level: 4
+    - name: OpenCV
+      level: 4
+    - name: Docker
+      level: 4
+    - name: Linux
+      level: 4
+    - name: LaTeX
+      level: 4
+    - name: SQL
+      level: 4
+    - name: ONNX
+      level: 3
+    - name: C++
+      level: 3
+
+  groups:
+    - name:
+      item:
+
+education:
+  show: true
+  order: 5
+  title: Образование
+  description: |
+    Ниже представлен мой путь в образовательной среде.
+
+  items:
+    - institution: Институт интеллектуальной робототехники НГУ (ИИР НГУ)
+      link: 'https://education.nsu.ru/mechatronics/'
+      date: 2023 - н.вр.
+      major: 15.03.06 Мехатроника и робототехника
+      degree: бакалавриат
+      description: |
+        Рассматриваемые области: классическое машинное обучение, глубокое машинное обучение, обработка естественных языков, робототехника.
+
+    - institution: Высший колледж информатики НГУ (ВКИ НГУ)
+      link: 'https://ci.nsu.ru/'
+      date: 2017 - 2022
+      major: 09.02.03 Программирование в компьютерных системах
+      degree: среднее профессиональное
+      description: |
+        В рамках завершения обучения получена квалификация техника-программиста.
+
+certificate:
+  show: true
+  order: 6
+  title: Сертификаты
+  description: |
+    Здесь показаны документы, которые выражают мой интерес горизонтально развивать свои hard skills.
+
+  items:
+    - name: Сертификат участника Хакатона Т1.Импульс
+      issuer: от Т1
+      date: 2025
+      link: '#'
+      description: |
+        Сертификат участника Хакатона Т1.Импульс по задаче «Цифровой дресс-код: фон, который выделяет вас», г.Новосибирск.
+    - name: Основы сетевых технологий, часть 1.
+      issuer: от ELTEX
+      date: 2025
+      link:
+      description: |
+        Сертификат о прохождении базового теоретического курса современных сетевых технологий от компании ELTEX.
+
+publication:
+  show: false
+  order: 7
+  title: Publications
+  description: |
+    The publication section in a resume is a dedicated section where you can showcase any publications that you have authored or contributed to. This section is particularly relevant for individuals in academic or research fields, but can also be relevant for individuals in other fields who have published articles or papers.
+
+    Publications can include academic journal articles, conference papers, book chapters, reports, or other written works. In this section, you should list the title of the publication, the names of any co-authors, the name of the publication or conference, the date of publication, and any other relevant details.
+
+    If you have a long list of publications, you may want to consider including only the most relevant or significant publications on your resume. Alternatively, you could create a separate publication list and provide it as a separate document, either in your application materials or upon request.
+
+    Including a publication section in your resume can help demonstrate your expertise and credibility in your field, and can help you stand out from other candidates. However, if you do not have any publications to list, it is not necessary to include this section in your resume.
+
+  items:
+    - title: Example Publication in Action
+      authors: Foo Bar
+      conference: Foobar, 2019
+      link: '#'
+    - title: The Art of Example Publication
+      authors: Foo Bar
+      conference: Foobar, 2019
+      link:
+
+award:
+  show: false
+  order: 8
+  title: Awards
+  description: |
+    The award section in a resume is a dedicated section where you can showcase any awards you have received. This section is particularly relevant for individuals who have received awards for their work in their field, such as employees who have received performance awards or industry-specific awards. In this section, you should list the name of the award, the organization or institution that awarded it, the date it was awarded, and any other relevant details.
+
+    When including your awards on your resume, be sure to focus on the most significant or relevant awards that showcase your skills and expertise. If you have received a long list of awards, you may want to consider including only the most recent or prestigious awards on your resume.
+
+    By highlighting your awards, you can demonstrate your achievements and accomplishments in your field, and can help differentiate yourself from other candidates. However, if you have not received any awards, it is not necessary to include this section in your resume.
+
+  items:
+    - name: Example Awared One
+      awarder: by Example
+      date: 2022
+      link: '#'
+      description: |
+        It's my Example Awared One by Example.
+    - name: Example Awared Two
+      awarder: by Example
+      date: 2022
+      link:
+      description: |
+        It's my Example Awared Two by Example.
+
+patent:
+  show: false
+  order: 9
+  title: Patents
+  description: |
+    The patent section in a resume is a dedicated section where you can showcase any patents that you have been granted or are in the process of obtaining. This section is particularly relevant for individuals who work in scientific or technical fields, as well as for individuals who have developed innovative products or technologies.
+
+    In this section, you should list the title of the patent, the name of the inventors, the patent number, and the date it was granted. If the patent is pending, you can indicate that it is "pending" or "in review." You may also want to provide a brief description of the technology or invention that the patent covers.
+
+    Including a patent section in your resume can help demonstrate your expertise and accomplishments in your field, and can help you stand out from other candidates. However, if you do not have any patents to list, it is not necessary to include this section in your resume.
+
+    Template for a pending patent:
+
+    + [Inventor Name]. [Pursued Year]. [Title]. [Patent Number], filed [Submitted Date]. Patent pending.
+
+    Template for an approved patent:
+
+    + [Inventor Name]. [Pursued Year]. [Title]. [Patent Number], filed [Submitted Date], [Received Date].
+
+    The following are some examples of patent formats.
+
+    + Foo Bar. 2022. Example patent name one. US 123456, filed Oct 3, 2022. Patent pending.
+    + Foo Bar. 2022. Example patent name two. US 654321, filed Oct 3, 2022, and issued Nov 15, 2022.
+
+organization:
+  show: true
+  order: 10
+  title: Дополнительнаяя деятельность
+  description: |
+    На данный момент я являюсь преподавателем курса дополнительного образования "Машинное обучение и нейронные сети" Цифровой кафедры НГУ. В мои задачи входит подготовка и чтение лекционного материала, а также разработка и проверка домашних заданий.
+
+    Помимо этого, на протяжении всего периода обучения я провожу дополнительные занятия и консультации для студентов младших курсов по улучшению их прикладного опыта, связанного с системами контроля версий, ведением проектной документации, планирования проектной деятельности.
+
+language:
+  show: true
+  order: 11
+  title: Языки
+  description: |
+    Здесь представлен набор языков, которыми я владею.
+    
+  items:
+    - idiom: Русский
+      level: На уровне носителя
+    - idiom: Английский
+      level: B2
+
+interest:
+  show: true
+  order: 12
+  title: Интересы
+  description: |
+    Мне нравятся компьютеры, в особенности испытывать свой пользовательский опыт. Совсем скоро будет год, как я полностью отказался от любого использования Windows. Я обнаружил себя в ситуации, где мои любимые игры из детства работают лучше некуда (спасибо опыту с Wine). Кроме этого, я так даже смог поставить КОМПАС-3D и на данный момент являюсь одним из редких обладателей подобного опыта. Работает, кстати, безупречно.
+
+    Кроме компьютеров, я большой фанат музыки: шумной и тихой, нежной и яростной. Поддержу беседу по любому исполнителю. Люблю собирать интересные факты о тех или иных группах.
+
+    Также пишу музыку самостоятельно, играл на барабанах в нескольких локальных группах, давал концерты. Пока взял паузу ради карьеры.
+
+    Люблю поигрывать и проигрывать в настольный теннис, для меня это легкий способ разрядиться после активной работы.
+  items:
+    - item: Average Linux enjoyer
+      link:
+    - item: Музыкант
+      link:
+    - item: Фанат пинг-понга
+      link:
+
+evaluation:
+  show: true
+  order: 13
+  title: Самоопределение
+  description: |
+    Проводя черту, я имею опыт и способности перекраивать свою жизнь. Думаю, я бы мог остаться в web-разработке, закрепиться как стабильный и серьезный специалист-технический писатель, но мне этого показалось мало. С поступлением в ВУЗ я начал свою жизнь с чистого листа и теперь вряд ли остановлюсь работать, так как вряд ли жалею об этом и уж точно люблю, чем занимаюсь.
+
+    Коммерческая разработка дала мне способности просматривать любой продукт "насквозь", чтобы корректно оценивать его сильные и слабые стороны. Помимо этого, мне теперь также хорошо дается планирование архитектуры проекта, его разработка и внедрение.
+    
+    В команде я могу как слушать, так и давать весомые комментарии. Если необходимо, спокойно беру на себя менеджмент рабочих процессов. В большинстве случаев о моей работе оставляли положительную обратную связь, вне зависимости от поставленных задач и распределенных на меня обязанностей.
+
+reference:
+  show: true
+  order: 14
+  title: Кому я бы хотел передать привет
+  description: |
+    Ниже представлен список лиц, которые могут поручиться за мои профессиональные компетенции и теоретическую базу.
+
+  items:
+    - name: Беспалов Сергей Вячеславович
+      link: 'https://github.com/dolganin'
+      title: Инженер embedded-устройств для DL-задач в области сейсмики
+      institution: Лаборатория программных систем оптимизации добычи углеводородов НГУ
+      address: г. Новосибирск, ул. Пирогова, 1.
+      email: s.bespalov1@g.nsu.ru
+      phone: 
+      description: |
+        Помимо своей основной профессии, Сергей является старшим преподавателем и куратором программы дополнительного образования "Машинное обучение и нейронные сети" Цифровой кафедры НГУ.
+        Под его руководством мною составляются лекции и дополняется образовательнаяя программа курса.
+
+close: <strong>Резюме находится на стадии реконструкции. В случае необходимости свяжитесь со мной в контактах на <a href="https://703lovelost.github.io/contacts/">сайте-визитке</a>.</strong>
