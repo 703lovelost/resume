@@ -236,15 +236,15 @@ skill:
     Разнообразие моих навыков как специалиста.
 
   items:
-    - name: Python
+    - name: PyTorch
       level: 5
-    - name: Jupyter Notebook
+    - name: transformers
       level: 5
     - name: Markdown
       level: 5
-    - name: PyTorch
+    - name: Python
       level: 4
-    - name: OpenCV
+    - name: Agents
       level: 4
     - name: Docker
       level: 4
@@ -254,10 +254,6 @@ skill:
       level: 4
     - name: SQL
       level: 4
-    - name: ONNX
-      level: 3
-    - name: C++
-      level: 3
 
   groups:
     - name:
@@ -287,9 +283,26 @@ education:
       description: |
         В рамках завершения обучения получена квалификация техника-программиста.
 
-certificate:
+publication:
   show: true
   order: 6
+  title: Выступления
+  description: |
+    Здесь представлены мои выступления на мероприятиях и конференциях.
+
+  items:
+    - title: \"Кадровик-консультант на базе ИИ\" или рецепт хорошего подарка
+      authors: Алексей Спиркин
+      conference: Data Fest Siberia 7, 10 октября 2026
+      link: 'https://ods.ai/events/datafestsiberia7'
+    - title: Attention Drift. Внимание моделей к родным и близким
+      authors: Алексей Спиркин
+      conference: Конференция \"Градиент\", 03 октября 2026
+      link: 'https://gradconf.ru/'
+
+certificate:
+  show: true
+  order: 7
   title: Сертификаты
   description: |
     Здесь показаны документы, которые выражают мой интерес горизонтально развивать свои hard skills.
@@ -313,29 +326,6 @@ certificate:
       link: 'https://703lovelost.github.io/certificates/network_basics_eltex_spirkin_2.pdf'
       description: |
         Сертификат о прохождении второй части базового теоретического курса современных сетевых технологий от компании ELTEX.
-
-publication:
-  show: false
-  order: 7
-  title: Publications
-  description: |
-    The publication section in a resume is a dedicated section where you can showcase any publications that you have authored or contributed to. This section is particularly relevant for individuals in academic or research fields, but can also be relevant for individuals in other fields who have published articles or papers.
-
-    Publications can include academic journal articles, conference papers, book chapters, reports, or other written works. In this section, you should list the title of the publication, the names of any co-authors, the name of the publication or conference, the date of publication, and any other relevant details.
-
-    If you have a long list of publications, you may want to consider including only the most relevant or significant publications on your resume. Alternatively, you could create a separate publication list and provide it as a separate document, either in your application materials or upon request.
-
-    Including a publication section in your resume can help demonstrate your expertise and credibility in your field, and can help you stand out from other candidates. However, if you do not have any publications to list, it is not necessary to include this section in your resume.
-
-  items:
-    - title: Example Publication in Action
-      authors: Foo Bar
-      conference: Foobar, 2019
-      link: '#'
-    - title: The Art of Example Publication
-      authors: Foo Bar
-      conference: Foobar, 2019
-      link:
 
 award:
   show: false
