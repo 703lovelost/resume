@@ -1,0 +1,10 @@
+.git
+.github
+_site
+.jekyll-cache
+.jekyll-metadata
+.sass-cache
+.bundle
+vendor
+Gemfile.lock
+README.md
