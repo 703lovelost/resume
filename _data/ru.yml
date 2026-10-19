@@ -291,13 +291,13 @@ publication:
     Здесь представлены мои выступления на мероприятиях и конференциях.
 
   items:
-    - title: \"Кадровик-консультант на базе ИИ\" или рецепт хорошего подарка
+    - title: Кадровик-консультант на базе ИИ или рецепт хорошего подарка
       authors: Алексей Спиркин
       conference: Data Fest Siberia 7, 10 октября 2026
       link: 'https://ods.ai/events/datafestsiberia7'
     - title: Attention Drift. Внимание моделей к родным и близким
       authors: Алексей Спиркин
-      conference: Конференция \"Градиент\", 03 октября 2026
+      conference: Конференция "Градиент", 03 октября 2026
       link: 'https://gradconf.ru/'
 
 certificate:
